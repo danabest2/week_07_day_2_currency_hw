@@ -1,7 +1,6 @@
 {
   "name": "4_currency_converter_homework",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "vue": "^2.6.10"
@@ -16,5 +15,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danabest2/week_07_day_2_currency_hw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danabest2/week_07_day_2_currency_hw/issues"
+  },
+  "homepage": "https://github.com/danabest2/week_07_day_2_currency_hw#readme",
+  "description": ""
 }
