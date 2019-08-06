@@ -27,7 +27,7 @@
 
 
         <div >
-          <p>Euro to be converted in...(select currency from the drop list below)</p>
+          <p>Euro to be converted in...(select currency from the drop list below):</p>
           <input type="number" v-model="input">
           <select v-model="selectedCountry" @change="converted">
             <option v-for="(rate, name) in currencies.rates" :value="rate">{{name}}</option>
@@ -36,15 +36,15 @@
           <h2>{{ converted }}</h2>
 
         </div>
-
+         <br>
         <div class="Eur">
-          <p>Selected currency into Euros</p>
+          <p>Selected currency into Euros:</p>
           <input type="number" v-model="inputEur">
           <select v-model="selectedCountry" @changeEur="convertedEur">
           <option v-for="(rate, name) in currencies.rates" :value="rate">{{name}}</option>
         </select>
 
-        <h2>{{ convertedEur }}</h2>
+        <h2>{{ convertedEur }}</h2><p>Euro</p>
 
       </div>
 
